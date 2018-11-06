@@ -1,0 +1,67 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+img{
+    width: 100%;
+    height: 100vh;
+        
+}
+
+.back {
+  position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+
+.back h1 {
+  position: absolute;
+  top: 90%;
+  left: 51%;
+    width: 100vw;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0 0 10px 0;
+  padding:0;
+    color: white;
+  /*文字の装飾は省略*/
+    font-family: serif;
+    font-size: 98px;
+    letter-spacing: 2px;
+    overflow: hidden;
+      white-space: nowrap;
+  border-right: 16px solid;
+    
+
+    
+
+  }
+
+.back img {
+  width: 100%;
+  }
+
+.typing {
+  display: flex;
+  justify-content: center;
+}
+
+
+.typing .hello {
+  width: 0;
+  animation:
+    type 1.6s steps(13, end) 500ms forwards;
+}
+
+@keyframes type {
+  to {
+    width: 100vw;
+  }
+}
